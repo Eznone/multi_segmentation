@@ -1,0 +1,3 @@
+* Implement 2d histogram
+* Divide image in 16 parts
+* Find gradient of each one

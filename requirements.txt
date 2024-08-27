@@ -1,0 +1,8 @@
+opencv-python
+argparse
+numpy
+scipy
+matplotlib
+mahotas
+scikit-learn
+scikit-image
