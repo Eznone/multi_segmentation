@@ -33,7 +33,7 @@ def interpolate_points(edges, gradient_magnitude):
             interpolated[y, x] = gradient_magnitude[y, x]
     
     # Apply interpolation (can use smoothing techniques like GaussianBlur to approximate interpolation)
-    interpolated = cv2.GaussianBlur(interpolated, (11, 11), 0)
+    interpolated = cv2.GaussianBlur(interpolated, (21, 21), 0)
     
     return interpolated
 
